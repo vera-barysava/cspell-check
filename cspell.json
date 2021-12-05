@@ -1,0 +1,28 @@
+{
+    "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+    "version": "0.2",
+    "dictionaryDefinitions": [
+        {
+            "name": "workspace",
+            "path": "./cspell-dict.txt",
+            "description": "Custom Workspace Dictionary",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    ],
+    "dictionaries": [
+        "workspace"
+    ],
+    "ignorePaths": [
+        "node_modules/**",
+		"src/**/[^strings].*\.tsx"
+		
+    ],
+    "useGitignore": true,
+    "ignoreWords": [
+        "commitcomment"
+    ],
+    "words": [
+        "medicalterms"
+    ]
+}
